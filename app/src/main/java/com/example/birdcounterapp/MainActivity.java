@@ -8,8 +8,8 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    int birdOneCount = 0;
-    int birdTwoCount = 0;
+    private int birdOneCount = 0;
+    private int birdTwoCount = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,15 +17,27 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void onClickBirdOne(View view) {
+    public void onClickBirdOneInc(View view) {
         birdOneCount++;//increment the birdOneCount
-        TextView text=(TextView)findViewById(R.id.textView);// resource location
-        text.setText("Votes for Bird #1: "+ birdOneCount);// view in the text
+        TextView text = (TextView) findViewById(R.id.bird1Count);// resource location
+        text.setText(Integer.toString(birdOneCount));// view in the text
     }
 
-    public void onClickBirdTwo(View view) {
+    public void onClickBirdTwoInc(View view) {
         birdTwoCount++;//increment the birdOneCount
-        TextView text=(TextView)findViewById(R.id.textView3);// resource location
-        text.setText("Votes for Bird #2: "+ birdTwoCount);// view in the text
+        TextView text=(TextView)findViewById(R.id.bird2Count);// resource location
+        text.setText(Integer.toString(birdTwoCount));// view in the text
+    }
+
+    public void onClickBirdOneDec(View view) {
+        birdOneCount--;//increment the birdOneCount
+        TextView text = (TextView) findViewById(R.id.bird1Count);// resource location
+        text.setText(Integer.toString(birdOneCount));// view in the text
+    }
+
+    public void onClickBirdTwoDec(View view) {
+        birdTwoCount--;//increment the birdOneCount
+        TextView text=(TextView)findViewById(R.id.bird2Count);// resource location
+        text.setText(Integer.toString(birdTwoCount));// view in the text
     }
 }

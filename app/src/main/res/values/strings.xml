@@ -1,3 +1,11 @@
 <resources>
+    <string name="title">Bird Watching App</string>
+
     <string name="app_name">Bird Counter App</string>
+    <string name="bird1Name">Cardinal</string>
+    <string name="bird2Name">Blue Jay</string>
+    <string name="initValue">0</string>
+
+    <string name="inc">Increase Count</string>
+    <string name="dec">Decrease Count</string>
 </resources>
