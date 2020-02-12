@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "336015948240",
+    "firebase_url": "https://birdcounterapp-865f5.firebaseio.com",
+    "project_id": "birdcounterapp-865f5",
+    "storage_bucket": "birdcounterapp-865f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336015948240:android:2a5c5aece8e0aff1dae1d5",
+        "android_client_info": {
+          "package_name": "com.example.birdcounterapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336015948240-qfnl1lc4a2uhsbv0dc4uj1tuh0t6os4q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2UUPgc68y4_FnMP4BiWydffnR-IsHzxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336015948240-qfnl1lc4a2uhsbv0dc4uj1tuh0t6os4q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
