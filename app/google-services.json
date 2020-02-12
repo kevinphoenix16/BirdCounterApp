@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "336015948240-7lmqc8lnjk4utephlnq3up3uiktvnoep.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.birdcounterapp",
+            "certificate_hash": "c87daf89399ffc0c037ea46479641d84f34428c5"
+          }
+        },
+        {
           "client_id": "336015948240-qfnl1lc4a2uhsbv0dc4uj1tuh0t6os4q.apps.googleusercontent.com",
           "client_type": 3
         }

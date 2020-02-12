@@ -40,4 +40,5 @@ public class MainActivity extends AppCompatActivity {
         TextView text=(TextView)findViewById(R.id.bird2Count);// resource location
         text.setText(Integer.toString(birdTwoCount));// view in the text
     }
+
 }
