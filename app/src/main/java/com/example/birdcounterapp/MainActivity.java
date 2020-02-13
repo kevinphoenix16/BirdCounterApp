@@ -30,13 +30,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickBirdOneDec(View view) {
-        birdOneCount--;//increment the birdOneCount
+        if(birdOneCount > 0) {
+            birdOneCount--;//increment the birdOneCount
+        }
         TextView text = (TextView) findViewById(R.id.bird1Count);// resource location
         text.setText(Integer.toString(birdOneCount));// view in the text
     }
 
     public void onClickBirdTwoDec(View view) {
-        birdTwoCount--;//increment the birdOneCount
+        if(birdTwoCount > 0) {
+            birdTwoCount--;//increment the birdOneCount
+        }
         TextView text=(TextView)findViewById(R.id.bird2Count);// resource location
         text.setText(Integer.toString(birdTwoCount));// view in the text
     }
