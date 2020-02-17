@@ -110,8 +110,8 @@
 
     <ImageView
         android:id="@+id/bird2Img"
-        android:layout_width="153dp"
-        android:layout_height="175dp"
+        android:layout_width="156dp"
+        android:layout_height="153dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -121,10 +121,10 @@
         android:contentDescription="@string/bird2Name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintHorizontal_bias="0.891"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.32"
+        app:layout_constraintVertical_bias="0.309"
         app:srcCompat="@drawable/images"
         tools:srcCompat="@drawable/images" />
 
@@ -181,8 +181,8 @@
 
     <ImageView
         android:id="@+id/bird1Img"
-        android:layout_width="153dp"
-        android:layout_height="330dp"
+        android:layout_width="152dp"
+        android:layout_height="154dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -192,10 +192,10 @@
         android:contentDescription="@string/bird1Name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintHorizontal_bias="0.148"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.249"
+        app:layout_constraintVertical_bias="0.308"
         app:srcCompat="@drawable/cardinal_thumb"
         tools:srcCompat="@drawable/cardinal_thumb" />
 
