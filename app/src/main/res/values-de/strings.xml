@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bird Counter App</string>
+    <string name="bird1Name">Das Cardinale</string>
+    <string name="bird2Name">Der Blau Jay</string>
+</resources>
